@@ -1,0 +1,135 @@
+body{
+    
+    background-color: white;
+    border: 3px solid rgb(40, 126, 197);
+    padding:10px    ;
+    width: auto;
+      margin: 40px;
+}
+
+.Foto{
+    border: 15px solid white;
+    text-align: center;
+    height: 70;
+    padding: 70;
+}
+.Nombreprofesion{
+    text-align: center;
+    line-height: 0;
+    
+}
+.Informacion{
+    border: 80px solid rgba(0, 0, 0, 0);
+    margin-top: -40px;
+
+}
+.InfoHoja{
+    margin-top: -15px;
+}
+
+#Nombre{
+    color: rgb(40, 126, 197);
+}
+
+.Color{
+    color:  rgb(40, 126, 197);
+    font-family: Arial;
+    font-size: medium;
+}
+
+.Container{
+  display: flex;
+  grid-gap: 40px;
+  padding: 40px;
+  
+}
+.box-1{
+    order: 1;
+
+   padding: 10px;
+   height: 170px;
+   margin-top: -142px;
+   margin-left: 10px;
+   
+   .icono{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+ 
+   }
+}
+.box-2{
+    order: 2;
+    padding: 20px;
+    height: 170px;
+
+   
+
+}
+
+
+ .box-3{
+    order: 1;
+    margin-top: -168px;
+
+    padding: 40px;
+    height: 200px;
+ }
+
+
+ .Container1{
+    display: flex;
+  grid-gap: 10px;
+  padding: 40px;
+  flex-direction: column;
+}
+
+.Container2 {
+    display: flex;
+    grid-gap: 10px;
+    padding: 40px;
+    flex-direction: column;
+    position: relative; 
+  }
+  
+
+  .Container2::before {
+    content: '';
+    position: absolute;
+    left: -10px; 
+    top: -70px;
+    bottom: -40px;
+    width: 1px; 
+    background-color: rgb(40, 126, 197);
+  }
+
+.espacio{
+    display: flex;
+  grid-gap: 10px;
+  padding: 40px; 
+}
+#prueba{
+    color: red;
+}
+p{
+    font-size: medium;
+    font-style: normal;
+    line-height: 1.0;
+
+    text-align: justify;
+}
+
+.Verticalline{
+    width: 1px;
+    height: 100px;
+    color:yellow;
+}
+
+.Tabla{
+    text-align: left;
+    white-space: nowrap;
+}
+
+.Tabla2{
+   text-align: left;
+}
